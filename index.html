@@ -1,9 +1,145 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-    <title>Document</title>
+    <meta charset="UTF-8">
+    <title>My Gaming Website</title>
+    <!-- Add CSS files here -->
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <h1>This is my Github page</h1>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="Games.html">Games</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <button id="dark-mode-toggle">Toggle dark mode</button>
+    <form id="search-form">
+        <input type="text" id="search-bar" placeholder="Search">
+        <button type="submit">Go</button>
+    </form>
+
+    <div id="carousel">
+        <div class="slide"></div>
+        <div class="slide"></div>
+        <div class="slide"></div>
+    </div>
+
+    <button id="previous-button">Previous</button>
+    <button id="next-button">Next</button>
+    <h2>High scores</h2>
+
+    <ul id="leaderboard">
+        <!-- Leaderboard items will be added dynamically with JavaScript -->
+    </ul>
+    <div id="login">
+        <h2>Login</h2>
+        <form id="login-form">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username">
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password">
+            <button type="submit">Login</button>
+        </form>
+    </div>
+
+    <div id="registration">
+        <h2>Registration</h2>
+        <form id="registration-form">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password">
+            <button type="submit">Register</button>
+        </form>
+    </div>
+
+    <main>
+        <h2>Upcoming Games</h2>
+        <ul>
+            <li>
+                <h3>Call of Duty: Modern Warfare 2</h3>
+                <img src="mw2.jpg" alt="Call of Duty: Modern Warfare 2">
+                <p>Release date: November 5, 2023</p>
+                <p>Platform(s): Xbox Series X|S, PlayStation 5, and PC</p>
+                <a href="#">Learn More</a>
+            </li>
+            <li>
+                <h3>The Legend of Zelda: Breath of the Wild 2</h3>
+                <img src="zelda2.jpg" alt="The Legend of Zelda: Breath of the Wild 2">
+                <p>Release date: TBA 2024</p>
+                <p>Platform(s): Nintendo Switch</p>
+                <a href="#">Learn More</a>
+            </li>
+        </ul>
+        <h2>Game Reviews</h2>
+        <ul>
+            <li>
+                <h3>Red Dead Redemption 2</h3>
+                <img src="red_dead_2.jpg" alt="Red Dead Redemption 2">
+                <p>Rating: 9/10</p>
+                <p>Summary: Red Dead Redemption 2 is a stunningly beautiful game that immerses players in the Old West.
+                    The game
+                    features a deep and engaging story, with memorable characters and an incredible attention to detail.
+                    The
+                    gameplay is varied and fun, with plenty of activities to keep players entertained for hours. </p>
+                <a href="#">Read More</a>
+            </li>
+            <li>
+                <h3>Resident Evil Village</h3>
+                <img src="re_village.jpg" alt="Resident Evil Village">
+                <p>Rating: 8/10</p>
+                <p>Summary: Resident Evil Village is a solid entry in the Resident Evil franchise, with great graphics,
+                    a creepy
+                    atmosphere, and fun gameplay. While the story is a bit convoluted, the game is still a must-play for
+                    fans of
+                    the series. </p>
+                <a href="#">Read More</a>
+            </li>
+        </ul>
+        <h2>Gaming News</h2>
+        <ul>
+            <li>
+                <h3>PlayStation 5 Shortages Expected to Continue Through 2023</h3>
+                <img src="ps5.jpg" alt="PlayStation 5">
+                <p>The PlayStation 5 has been in high demand since its launch in 2020, and shortages are expected to
+                    continue
+                    through 2023. Sony has cited supply chain issues as the main reason for the shortage, and has
+                    apologized to
+                    fans for the inconvenience.</p>
+                <a href="#">Read More</a>
+            </li>
+            <li>
+                <h3>Xbox Game Pass Adds New Games in March</h3>
+                <img src="xbox_game_pass.jpg" alt="Xbox Game Pass">
+                <p>Xbox Game Pass subscribers can look forward to several new games in March, including Doom Eternal,
+                    Octopath
+                    Traveler, and Yakuza 6. Xbox Game Pass is a popular subscription service that gives players access
+                    to a
+                    large library of games for a monthly fee.</p>
+                <a href="#">Read More</a>
+            </li>
+        </ul>
+
+
+    </main>
+
+    <footer>
+        <p>&copy; 2023 My Gaming Website</p>
+    </footer>
+
+    <script src="app.js"></script>
+
 </body>
+
+
+
 </html>
