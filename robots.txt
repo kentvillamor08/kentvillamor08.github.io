@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://ratedgamesphere.netlify.app/sitemap.xml
+Sitemap: https://AshenHub.netlify.app/sitemap.xml
