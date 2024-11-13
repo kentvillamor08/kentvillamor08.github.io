@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://AshenHub.netlify.app/sitemap.xml
+Sitemap: https://ashenhub.netlify.app/sitemap.xml
